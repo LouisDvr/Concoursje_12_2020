@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import SocialNetworks from "./SocialNetworks";
+import WireShieldLogo from "./WireShieldLogo";
 
 class Footer extends Component {
 
@@ -9,9 +10,14 @@ class Footer extends Component {
 
     render() {
         return (
-            <>
+            <footer className="d-flex justify-content-evenly bg-light" style={{boxShadow: "inset -2px 2px 4px black"}}>
+                <WireShieldLogo/>
+                <div className="d-flex flex-column justify-content-center align-items-center mb-4">
+                    <p className="fs-4 px-3 py-3 my-0">Nous contacter</p>
+                    <a href="mailto:contact.wireshield@gmail.com" className="text-decoration-none link-dark">contact.wireshield@gmail.com</a>
+                </div>
                 <SocialNetworks/>
-            </>
+            </footer>
         );
     }
 }

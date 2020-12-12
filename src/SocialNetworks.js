@@ -12,8 +12,8 @@ class SocialNetworks extends Component {
 
     render() {
         return(
-            <div className="d-flex flex-column justify-content-center align-items-center">
-                <p className="px-3 my-0">Nous suivre</p>
+            <div className="d-flex flex-column justify-content-center align-items-center mb-2">
+                <p className="fs-4 px-3 py-2 my-0">Nous suivre</p>
                 <div>
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
