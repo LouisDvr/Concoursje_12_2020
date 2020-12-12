@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import HookIllustration from "./HookIllustration";
+import HookDescription from "./HookDescription";
 
 class Hook extends Component {
 
@@ -9,7 +10,10 @@ class Hook extends Component {
 
     render() {
         return(
-            <HookIllustration/>
+            <>
+                <HookIllustration/>
+                <HookDescription/>
+            </>
         );
     }
 }
