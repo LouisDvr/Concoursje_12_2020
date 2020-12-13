@@ -3,13 +3,17 @@ import NavBar from "./NavBar";
 import Hook from "./Hook";
 import Footer from "./Footer";
 import Expertise from "./Expertise";
+import Services from "./Services";
 
 function App() {
   return (
       <>
         <NavBar/>
         <Hook/>
-        <Expertise/>
+        <div style={{backgroundColor: "#d4d4d4"}}>
+            <Expertise/>
+            <Services/>
+        </div>
         <Footer/>
       </>
   );

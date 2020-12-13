@@ -13,7 +13,7 @@ class Expertise extends Component {
 
     render() {
         return(
-          <div className="d-flex flex-column justify-content-center align-items-center pb-5" style={{backgroundColor: "#d4d4d4"}}>
+          <div className="d-flex flex-column justify-content-center align-items-center pb-5">
               <h3 className="display-5 fw-bold px-3 py-3 my-3">Notre expertise...</h3>
               <div className="w-100 d-flex justify-content-evenly align-items-center">
                   <ProductCard img={auditImage} alt={"Illustration audit"} title={"Audit des processus"}
