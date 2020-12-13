@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import illustration from "./Images/network_1920.jpg";
+import illustration from "./Images/network1_1920.jpg";
 
 class HookIllustration extends Component {
 

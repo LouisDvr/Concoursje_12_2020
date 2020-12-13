@@ -10,7 +10,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <footer className="d-flex justify-content-evenly bg-light" style={{boxShadow: "inset -2px 2px 4px black"}}>
+            <footer className="d-flex justify-content-evenly bg-light">
                 <WireShieldLogo/>
                 <div className="d-flex flex-column justify-content-center align-items-center mb-4">
                     <p className="fs-4 px-3 py-3 my-0">Nous contacter</p>
