@@ -14,7 +14,7 @@ class Footer extends Component {
                 <WireShieldLogo/>
                 <div className="d-flex flex-column justify-content-center align-items-center mb-4">
                     <p className="fs-4 px-3 py-3 my-0">Nous contacter</p>
-                    <a href="mailto:contact.wireshield@gmail.com" className="text-decoration-none link-dark">contact.wireshield@gmail.com</a>
+                    <a href="mailto:contact.wireshield@gmail.com" className="text-decoration-none link-dark fs-5">contact.wireshield@gmail.com</a>
                 </div>
                 <SocialNetworks/>
             </footer>
