@@ -10,7 +10,7 @@ function App() {
       <>
         <NavBar/>
         <Hook/>
-        <div style={{backgroundColor: "#d4d4d4"}}>
+        <div style={{backgroundColor: "#d4d4d4"}} id="services">
             <Expertise/>
             <Services/>
         </div>

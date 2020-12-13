@@ -22,9 +22,8 @@ class NavBar extends Component {
                     </button>
                     <div className="collapse navbar-collapse ps-2" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link mx-2" href="#">Notre histoire</a>
-                            <a className="nav-link mx-2" href="#">Nos services</a>
-                            <a className="nav-link mx-2" href="#">Contact</a>
+                            <a className="nav-link mx-2" href="#services">Nos services</a>
+                            <a className="nav-link mx-2" href="#contact">Contact</a>
                         </div>
                     </div>
                 </div>
